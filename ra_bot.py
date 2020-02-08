@@ -22,7 +22,7 @@ def send_email(my_receiver, subject, body):
         msg['Subject']=subject #Subject
         server = smtplib.SMTP_SSL(smtp_server, 465)
         server.login(my_sender, password)
-        server.sendmail(my_sender, [my_receiver], msg.as_string()) #发送地址需与登陆的邮箱一致
+        server.sendmail(my_sender, [my_receiver], msg.as_string()) 
         server.quit()
     except Exception:  
         ret=False
