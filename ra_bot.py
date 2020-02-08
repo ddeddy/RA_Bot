@@ -14,7 +14,7 @@ def send_email(my_receiver, subject, body):
     ret=True
     try:
         my_sender = 'renyifan@yifan-ren.com'
-        password = 'WLrng5A4gHGyCWcD'
+        password = 'WLrng5A4gHGyCWcD' # Invalid, just for example
         smtp_server = 'smtp.exmail.qq.com' #ServerAdd
         msg=MIMEText(body,'plain','utf-8')#Body Content
         msg['From']=formataddr(["xx",my_sender])#From
