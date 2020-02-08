@@ -1,6 +1,6 @@
 # RA_Bot
 
-### *For my girlfriend
+### *Programming for my girlfriend. She is an excellent graduate student in finance area.
 
 This is a bot program that daily monitor updates on the website "Research Assistant Positions not at the NBER".
 https://www.nber.org/jobs/nonnberjobs.html
